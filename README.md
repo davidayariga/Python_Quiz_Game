@@ -24,7 +24,7 @@ What is the provincial capital of Nova Scotia?,Baddeck,Digby,Lunenburg,Halifax,4
    d. Give immediate feedback (print correct answer if user’s answer was  wrong)
    
 3. Print score ratio (in percent and rounded to 2 digits)
-## Code Explanation
+## Code Explanation (Classes and Methods)
 The code consists of three main classes: Quiz, QuizQuestion, and QuizGame.
 
 ### Quiz Class
@@ -34,17 +34,17 @@ check_answer: Compares the user’s input to the correct answer.
 ### QuizQuestion Class
 Inherits from Quiz and initializes using the superclass constructor.
 ### QuizGame Class
-Initialization: Loads questions from a CSV file and sets the initial score.
+*Initialization*: Loads questions from a CSV file and sets the initial score.
 
-load_questions: Reads questions from the CSV file and handles file not found or other errors.
+*load_questions*: Reads questions from the CSV file and handles file not found or other errors.
 
-play: Main game loop that iterates through each question, asks for user input, checks the answer, provides feedback, and updates the score.
+*play*: Main game loop that iterates through each question, asks for user input, checks the answer, provides feedback, and updates the score.
 
-get_user_input: Validates the user’s input to ensure it’s a number between 1 and 4.
+*get_user_input*: Validates the user’s input to ensure it’s a number between 1 and 4.
 
-show_score: Displays the user's score as a percentage.
+*show_score*: Displays the user's score as a percentage.
 
-ask_play_again: Prompts the user to play again and restarts the game if they choose to.
+*ask_play_again*: Prompts the user to play again and restarts the game if they choose to.
 
 ### GameInherit Class
 Inherits from QuizGame and initializes using the superclass constructor.
