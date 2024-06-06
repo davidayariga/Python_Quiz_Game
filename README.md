@@ -3,20 +3,27 @@ This python quiz game comprise 10 general questions relating to geography
 
 # Requirements of the quiz game
 The goal is to create a script that asks the user general questions and prints the results. The questions are read from a CSV file. Each row in the CSV file contains a question, four possible answers, and the correct answer, formatted as follows: 
+
 Question,Answer 1,Answer 2,Answer 3,Answer 4,Correct Answer
 What is the provincial capital of Nova Scotia?,Baddeck,Digby,Lunenburg,Halifax,4
+
 # Specific requirements of the quiz game
 1. Read CSV file (line by line)
+   
    a. Ask question and present possible answers
+   
    b. Read user input
+   
    c. Check user input (and update score)
+   
    d. Give immediate feedback (print correct answer if user’s answer was  wrong)
-2. Print score ratio (in percent and rounded to 2 digits)
+   
+3. Print score ratio (in percent and rounded to 2 digits)
 # Code Explanation
 The code consists of three main classes: Quiz, QuizQuestion, and QuizGame.
 
 ## Quiz Class
-Initialization: Sets up the question, possible answers, and the correct answer.
+Initialization: Sets up the question, possible answers and the correct answer.
 ask_question: Displays the question and possible answers.
 check_answer: Compares the user’s input to the correct answer.
 ## QuizQuestion Class
