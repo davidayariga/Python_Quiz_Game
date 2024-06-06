@@ -35,11 +35,17 @@ check_answer: Compares the user’s input to the correct answer.
 Inherits from Quiz and initializes using the superclass constructor.
 ### QuizGame Class
 Initialization: Loads questions from a CSV file and sets the initial score.
+
 load_questions: Reads questions from the CSV file and handles file not found or other errors.
+
 play: Main game loop that iterates through each question, asks for user input, checks the answer, provides feedback, and updates the score.
+
 get_user_input: Validates the user’s input to ensure it’s a number between 1 and 4.
+
 show_score: Displays the user's score as a percentage.
+
 ask_play_again: Prompts the user to play again and restarts the game if they choose to.
+
 ### GameInherit Class
 Inherits from QuizGame and initializes using the superclass constructor.
 ### Main Script
