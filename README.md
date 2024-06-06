@@ -29,8 +29,11 @@ The code consists of three main classes: Quiz, QuizQuestion, and QuizGame.
 
 ### Quiz Class
 Initialization: Sets up the question, possible answers and the correct answer.
+
 ask_question: Displays the question and possible answers.
+
 check_answer: Compares the user’s input to the correct answer.
+
 ### QuizQuestion Class
 Inherits from Quiz and initializes using the superclass constructor.
 ### QuizGame Class
