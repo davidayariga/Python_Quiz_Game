@@ -1,5 +1,9 @@
 # Python_Quiz_Game
-This python quiz game comprise 10 general questions relating to geography
+This python quiz game comprise 10 general questions relating to geography.
+
+## Rationale for the project
+
+This project was developed to fulfill the requirements of the ReDI School for Digital Integration's Python Intermediate Course.
 
 ## Requirements of the quiz game
 The goal is to create a script that asks the user general questions and prints the results. The questions are read from a CSV file. Each row in the CSV file contains a question, four possible answers, and the correct answer, formatted as follows: 
